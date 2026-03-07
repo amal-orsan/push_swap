@@ -26,12 +26,10 @@ To remove everything including the binary:
 ```bash
 make fclean
 ```
-```
 ### Usage
-
+```
 Include the header file in your source code:
 
-```c
 #include "push_swap.h"
 ```
 ### Technical Choices :
@@ -62,14 +60,15 @@ Include the header file in your source code:
 
 1. https://youtu.be/wRvipSG4Mmk?si=BHYMoIYGftUbahjB
 2. https://pure-forest.medium.com/push-swap-turk-algorithm-explained-in-6-steps-4c6650a458c0
+3. https://www.geeksforgeeks.org/
 
 ### Use of AI
 AI tools were used only as learning support, specifically to:
 
-    Explain algorithmic complexity theory and help reason through the disorder metric design.
+1.Explain algorithmic complexity theory and help reason through the disorder metric design.
 
-    Review the argv parsing logic for the single-string vs multi-argument input edge case.
+2.Review the argv parsing logic for the single-string vs multi-argument input edge case.
 
-    suggest how to split long functions into smaller helpers.
+3.suggest how to split long functions into smaller helpers.
 
 All code was written, tested, and debugged manually. 
