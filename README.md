@@ -61,7 +61,7 @@ Include the header file in your source code:
 1. https://youtu.be/wRvipSG4Mmk?si=BHYMoIYGftUbahjB
 2. https://pure-forest.medium.com/push-swap-turk-algorithm-explained-in-6-steps-4c6650a458c0
 3. https://www.geeksforgeeks.org/
-4. youtube videos to understand radix lsd algorithm and the differnces between the rest of algorithms.
+4. youtube videos to understand radix lsd algorithm and the differences between this and the rest of algorithms.
 5. 42 push swap subject. 
 6. github repositories about push swap and bench mode.
 
