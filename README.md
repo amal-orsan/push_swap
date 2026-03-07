@@ -65,10 +65,10 @@ Include the header file in your source code:
 ### Use of AI
 AI tools were used only as learning support, specifically to:
 
-1.Explain algorithmic complexity theory and help reason through the disorder metric design.
+	Explain algorithmic complexity theory and help reason through the disorder metric design.
 
-2.Review the argv parsing logic for the single-string vs multi-argument input edge case.
+	Review the argv parsing logic for the single-string vs multi-argument input edge case.
 
-3.suggest how to split long functions into smaller helpers.
+	suggest how to split long functions into smaller helpers.
 
 All code was written, tested, and debugged manually. 
