@@ -5,7 +5,7 @@ CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
 SRCS = push_swap.c \
-		ft_atoi.c \
+		ft_atol.c \
 		ft_adaptive_algo.c \
 		ft_radix.c \
 		ft_rotate.c \
