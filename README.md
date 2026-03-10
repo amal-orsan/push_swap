@@ -80,13 +80,15 @@ making it O(n) and significantly increasing the total operation count.
 ### Explanation and Justification of the Used Algorithms
 
 **Simple O(n^2):**
+
 We chose Selection Sort to efficiently handle small stacks in push_swap.
 By repeatedly finding the minimum value and rotating it to the top using the shortest path — either upward or downward depending on its position —
 the algorithm minimizes unnecessary moves.
 Converting numbers to 0-based indices further simplifies comparisons and ensures consistent behavior regardless of the actual input values, allowing
 small stacks to be sorted correctly while fully complying with project constraints.
 
-**Medium O(n *sqrt(n)):**
+**Medium O(n * sqrt(n)):**
+
 We chose Chunk Sort with a smaller chunk count to efficiently handle medium-sized stacks in push_swap.
 By dividing the normalized indices into a limited number of groups and pushing each group to stack b as a batch,
 the algorithm reduces the number of full-stack traversals compared to selection sort.
@@ -94,6 +96,7 @@ Rotating each target element using the shortest path, either upward or downward 
 allowing medium-sized stacks to be sorted with a balanced operation count while fully complying with project constraints.
 
 **Complex O(n * log(n)):**
+
 We chose Radix LSD to efficiently sort stacks in push_swap. By processing numbers from the least significant digit to the most significant,
 the algorithm provides stable sorting and predictable performance. Converting numbers to 0-based indices further optimizes stack operations,
 allowing large stacks to be sorted with minimal moves while complying with project constraints.
@@ -107,12 +110,12 @@ allowing large stacks to be sorted with minimal moves while complying with proje
 5. 42 push_swap subject.
 6. Various GitHub repositories on push_swap implementations and bench mode.
 
-### Team collaboration : 
+## Team collaboration : 
 
 The work is done of both team members so :
- aalorsan do flags, swap, rotate, reverse rotate operations, validation, header file, Makefile, complex and adaptive algorithms and all small sorts operations for stack size less than or equal to 5.
-
- And fadarwis do parsing, stack building , simple and medium algorithms, push operations, bench, bench print, make indexing and utils functions and README.md file. 
+ aalorsan do flags, swap, rotate, reverse rotate operations, validation, header file, Makefile, complex and adaptive algorithms and all small sorts operations  for stack size less than or equal to 5.
+ 
+ And fadarwis do parsing, stack building , simple and medium algorithms, push operations, bench, bench print, make indexing and utils functions and README.md   file. 
 
 all cases are tested from the both team members.
 
@@ -123,5 +126,6 @@ AI tools were used only as learning support, specifically to:
 - Explain algorithmic complexity theory and help reason through the disorder metric design.
 - Review the argv parsing logic for the single-string vs multi-argument input edge case.
 - Suggest how to split long functions into smaller helpers.
+
 
 All code was written, tested, and debugged manually.
