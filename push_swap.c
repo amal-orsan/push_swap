@@ -24,7 +24,7 @@ static void	run_forced(t_stack **a, t_stack **b, t_bench *bench)
 		bench->used = STRAT_MEDIUM;
 		bench->class_name = "O(n*sqrt(n))";
 		make_indexing(*a);
-		chunk_sort(a, b, 10, bench);
+		chunk_sort(a, b, bench);
 	}
 	else if (bench->forced == STRAT_COMPLEX)
 	{

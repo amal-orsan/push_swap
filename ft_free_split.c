@@ -22,3 +22,13 @@ void	free_split(char **split)
 		free(split[i++]);
 	free(split);
 }
+
+int	ft_sqrt(int n)
+{
+	int	i;
+
+	i = 0;
+	while (i * i <= n)
+		i++;
+	return (i - 1);
+}

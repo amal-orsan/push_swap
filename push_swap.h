@@ -95,8 +95,7 @@ void		pb(t_stack **b, t_stack **a, t_bench *bench);
 double		compute_disorder(t_stack *a);
 void		ft_adaptive(t_stack **a, t_stack **b, t_bench *bench);
 void		selection_sort(t_stack **a, t_stack **b, t_bench *bench);
-void		chunk_sort(t_stack **a, t_stack **b, int chunk_count,
-				t_bench *bench);
+void		chunk_sort(t_stack **a, t_stack **b, t_bench *bench);
 void		lsd_algo(t_stack **a, t_stack **b, t_bench *bench);
 
 /* small sorts */
@@ -135,5 +134,6 @@ int			parse_flags(t_bench *bench, int argc, char **argv, int *start);
 long		ft_atol(char *str);
 char		**ft_split(char const *s, char c);
 void		free_split(char **split);
+int			ft_sqrt(int n);	
 
 #endif

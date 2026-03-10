@@ -90,14 +90,16 @@ static void	push_back_to_a(t_chunk *chunk)
 	}
 }
 
-void	chunk_sort(t_stack **a, t_stack **b, int chunk_count, t_bench *bench)
+void	chunk_sort(t_stack **a, t_stack **b, t_bench *bench)
 {
 	t_chunk		c;
 	int			len;
 	int			chunk_size;
 	int			chunk;
+	int			chunk_count;
 
 	len = stack_len(*a);
+	chunk_count = ft_sqrt(len);
 	chunk_size = len / chunk_count + 1;
 	chunk = 0;
 	c.a = a;

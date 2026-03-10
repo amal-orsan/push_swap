@@ -57,7 +57,7 @@ static void	run_by_disorder(t_stack **a, t_stack **b,
 	else if (disorder < 0.5)
 	{
 		set_bench(bench, "O(n*sqrt(n))");
-		chunk_sort(a, b, 10, bench);
+		chunk_sort(a, b, bench);
 	}
 	else
 	{
